@@ -12,7 +12,7 @@ Abbiamo un elenco degli studenti di una facoltà, identificati da id, Nome e som
 1. Per preparare l'aula di un nuovo corso, dobbiamo stampare le targhe col nome degli studenti: creare una lista contenente il loro nome tutto in maiuscolo, ad esempio (Marco della Rovere => MARCO DELLA ROVERE);
 2. Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70
 3. Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70 e id superiore a 120
-Buon pomeriggio e buon lavoro !!! :faccia_nerd:
+Buon pomeriggio e buon lavoro !!!
 Questo è l'elenco degli studenti:
 Id  Name                Grades
 213 Giuseppina della Rovere 78
@@ -22,3 +22,18 @@ Id  Name                Grades
 196 Luigi Grimaldello       68
 102 Piero della Francesca   50
 120 Francesca da Polenta    84
+
+
+
+SCOMPOSIZIONE
+
+Snack 1
+Creo un array con i nomi degli invitati.
+Creo un array di oggetti dalla lista dell'array degli invitati. Faccio un ciclo forEach aggiungendo ad ogni oggetto la proprietà: nome tavolo=tavolo vip, nome ospite=property dell'array, posto 
+occupato = array + 1
+
+Snack 2
+Creo l'array di oggetti contenente le proprietà in consegna.
+Creo un array su cui inserire e stampare solo i nomi in uppercase.
+Creo un array dove filtrare gli studenti con voto superiore a 70.
+Creo un array dove filtrare gli studenti con voto superiore a 70 e id superiore a 120
