@@ -42,3 +42,12 @@ for (const student of students) {
 }
 console.log(greaterVotes);
 
+const votesAndId = [];
+
+for (const student of students) {
+    if (student.grades > 70 && student.id > 120) {
+        votesAndId.push(student)
+    }
+}
+
+console.log(votesAndId)
