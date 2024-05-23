@@ -33,3 +33,12 @@ for (const student of students) {
 }
 console.log(namesTag);
 
+const greaterVotes = [];
+
+for (const student of students) {
+    if (student.grades > 70) {
+        greaterVotes.push(student);
+    }
+}
+console.log(greaterVotes);
+
