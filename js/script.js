@@ -25,3 +25,11 @@ const students = [
     { id: 102, name: "Piero della Francesca", grades: 50 },
     { id: 120, name: "Francesca da Polenta", grades: 84 }
 ];
+
+const namesTag = [];
+
+for (const student of students) {
+    namesTag.push(student.name.toUpperCase());
+}
+console.log(namesTag);
+
